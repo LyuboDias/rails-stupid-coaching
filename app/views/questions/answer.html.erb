@@ -1,0 +1,12 @@
+
+  <h1>Stupid Coaching</h1>
+
+  <%= yield %>
+  <div class="question">
+    <%= @question %>
+  </div>
+  <div class="answer">
+   <%= @responce %>
+ </div>
+ <br>
+  <%= link_to 'Ask a new question!', ask_path, class: "link" %>
